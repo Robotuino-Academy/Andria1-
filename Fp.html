@@ -2,6 +2,8 @@
 
 <head>
     <title>Portfolio</title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <style>
         #firstdiv {
             float: left;
@@ -68,17 +70,20 @@
         }
         
         
-        @media only screen and (max-width: 800px) {
+         @media screen and (max-width: 768px)
+        {
+            
             #firstdiv {
                 float: none;
                 width: 100%;
                 text-align: center;
                 height: auto;
-               
+                margin-top: 140px;
+              
             }
 
             #Seconddiv {
-                height: auto;
+                height: 370%;
             }
 
             #Design1 {
@@ -86,7 +91,7 @@
             }
 
             #aboutme {
-                float: none;
+                float: left;
                 width: 100%;
                 /* text-align: center; */
             }
@@ -96,7 +101,8 @@
             #Robotuino{
                 width: 200px;
                 position: absolute;
-                left: 0;
+        
+                right: 85;
                 top: 0;
             }
             #text{
